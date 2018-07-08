@@ -1,0 +1,743 @@
+#student_name{
+    text-align:center;
+    width:100%;
+    color:white;
+}	
+	
+	/* body style*/
+/*mobile view of search*/
+@media (max-width: 768px)
+{
+
+	#body_container{
+		width:100%;
+		padding:5px;
+		background-color:rgb(255, 255, 255);
+	}
+	/*BODY LEFT */
+	#body_left{
+		width:100%;
+		background-color: rgb(255, 255, 255);
+		padding:0px;
+		float:left;
+	}
+	
+	#left_header{
+		overflow:auto;
+		width:100%;
+		background-color:#462233;
+		padding:6px;
+		font-size:17px;
+		font-weight:bolder;
+		color:white;
+	}
+	#left_header b{
+		float:right;
+	}
+	#picslide{
+		width:100%;
+		height:200px;
+	}
+	#lodgebasic_info{
+		padding-bottom:10px;
+		background-color:#e2f0ef;
+		width:100%;
+		overflow:auto;
+		margin-top:10px;
+	}
+	/*info left*/
+	#info_left{
+		width:100%;
+		overflow:auto;
+	}
+	#left_layer1{
+		padding-left:20px;
+		font-size:25px;
+		width:100%;
+		height:50%;
+	}
+	#left_layer2{
+		padding-left:10px;
+		padding-top:10px;
+		height:50%;
+	}
+	#left_layer1 span{
+
+		font-size:10px;
+	}
+	#social_fb{
+		margin-right:10px;
+		width:35%;
+		padding:5px;
+		color:white;
+		font-size:10px;
+		background-color:rgb(67, 96, 156);
+		float: left;
+	}
+	#social_tw{
+		margin-right:10px;
+		width:35%;
+		padding:5px;
+		color:white;
+		font-size:10px;
+		background-color:rgb(85, 172, 238); 
+		float: left;
+	}
+	/*info right*/
+	#info_right{
+		margin-top:10px;
+		border-top:1px solid #462233;
+		width:100%;
+		overflow:auto;
+	}
+	#info_right #icon{	
+		width:20%;
+		float:left;
+		height:100%;
+	}
+	#agent_info{
+		width:70%;
+		float: left;
+		height:100%;
+	}
+	#agent_name{
+		padding:5px;
+		font-size:25px;
+		width:100%;
+	}
+	#agent_contact{
+		width:100%;
+	}
+
+	/*review section*********/
+	#review_con{
+		margin-top:10px;
+		width:100%;
+		overflow:auto;
+	}
+	#review_pic{
+		width: 10%;
+		height:10vw;
+		border-radius: 50%;
+		float:left;
+	}
+	#review_content{
+		width: 90%;
+		height: 100%;
+		float:left;
+	}
+	#review_detail{
+		margin-top:2px;
+		border-radius:25px;
+		padding:4px;
+		width: 100%;
+		overflow:auto;
+		background-color: lightblue;
+		float:left;
+	}
+	#review_detail b1{
+		float:right;
+	}
+	#review_text{
+		padding:10px;
+		font-size:17px;
+		margin-top:2px;
+		border-radius:18px;
+		width: 100%;
+		min-height: 50px;
+		background-color:#d2e6ed;
+		float:left;
+	}
+	#review_form{
+		margin-top:30px;
+		width:100%;
+		overflow:auto;
+		padding:2px;
+	}
+	#review_name{
+		font-size:15px;
+		width:50%;
+		padding:5px;
+		float: left;
+		border:2px solid #462245;;
+	}
+	#review_img{
+		border:2px solid #462245;;
+		width:50%;
+		float: left;
+		padding:5px;
+		
+	}
+	#review{
+		font-size:15px;
+		margin-top:10px;
+		border:2px solid #462245;;
+		width:100%;
+		float:left;
+		padding:5px;
+	}
+	#name_upload{
+		width:100%;
+		overflow:auto;
+	}
+	#name_upload #left{
+		width:50%;
+		float:left;
+	}
+	#name_upload #right{
+		width:50%;
+		float:left;
+	}
+
+	/*review section*********/
+
+
+
+	/*buton style*/
+button{
+	color:white;
+	text-decoration:none;
+	background-color:#462245;
+	padding:10px;
+	transition: all 0.5s ease-out;
+	border:none;
+	margin-top:10px; 	
+}
+button:HOVER{
+	font-weight:bold;
+	background-color:rgba(66, 49, 49, 0);
+	border:2px solid #462245;
+	color:#462245;
+}
+#tabcover{
+	width:100%;
+	overflow:auto;
+}
+.nav-tabs-wrapper{
+	font-size:30px;
+	background-color: blue;
+}
+/*buton style*/
+
+/*buton style*/
+/*buton style*/
+	
+
+	
+
+	/* BODY RIGHT START*/
+	#body_right{
+		width:100%;
+		height:auto;
+		background-color:rgb(77, 59, 59);
+		overflow:auto;
+		
+	}
+	#featured{
+		width:100%;
+		overflow:auto;
+		background-color: #423b3b;
+		padding-bottom:10px;
+		padding-top:10px;
+		margin-top:10px;
+	}
+	#featured_header{
+		width:100%;
+		font-size:15px;
+		padding:5px;
+		background-color:#462233;
+		color:white;
+		font-weight:bolder;
+	}
+	#featured_lodges{
+		margin-top:10px;
+		width:100%;
+		height:80px;
+	}
+	#featured_lodge_img{
+		float: left;
+		width:30%;
+		height:100%;
+	}
+	#featured_lodge_info{
+		float: left;
+		width:70%;
+		background-color:#ffffff;
+		height:100%;
+		font-size:12px;
+	}
+	.featured_info_panels{
+		width:100%;
+		height:33.3%;
+		color:#462245;
+		padding-left:10px;
+		font-weight:bolder;	
+		border-bottom:1px solid #462245;
+	}
+	
+	.featured_info_panels #panel_left{
+		width:50%;
+		height:100%;
+		float: left;
+	}
+	.featured_info_panels #panel_right{
+		float: left;
+		width:50%;
+		height:100%;
+	}
+	
+
+}
+
+/*DESKTOP VIEW START
+/*desktop view of search input*/
+@media (min-width: 768px)
+{
+	
+	
+	#body_container{
+		overflow:auto;
+		width:100%;
+		background-color:rgb(255, 255, 255);
+	}
+	/*BODY LEFT */
+	#body_left{
+		width:100%;
+		background-color: rgb(255, 255, 255);
+		padding:10px;
+		float:left;
+	}
+	
+	#left_header{
+		width:100%;
+		height:40px;
+		background-color:#462233;
+		padding:6px;
+		font-size:17px;
+		font-weight:bolder;
+		color:white;
+	}
+	#left_header b{
+		font-size:15px;
+		float:right;
+	}
+	#picslide{
+		width:100%;
+		height:350px;
+	}
+	
+	/*info left*/
+	#lodgebasic_info{
+		background-color:#e2f0ef;
+		width:100%;
+		overflow:auto;
+		margin-top:10px;
+	}
+	#info_left{
+		width:50%;
+		float:left;
+		height:100%;
+	}
+	#left_layer1{
+		padding-left:20px;
+		font-size:3.1vw;
+		width:100%;
+		height:50%;
+	}
+	#left_layer2{
+		padding-left:10px;
+		padding-top:10px;
+		height:50%;
+	}
+	#left_layer1 span{
+		font-size:1vw;
+	}
+	#social_fb{
+		margin-right:10px;
+		width:35%;
+		padding:5px;
+		color:white;
+		font-size:10px;
+		background-color:rgb(67, 96, 156);
+		float: left;
+	}
+	#social_tw{
+		margin-right:10px;
+		width:35%;
+		padding:5px;
+		color:white;
+		font-size:10px;
+		background-color:rgb(85, 172, 238); 
+		float: left;
+	}
+	/*info right*/
+	#info_right{
+		width:50%;
+		float:left;
+		height:100%;
+	}
+	#info_right #icon{	
+		width:30%;
+		float:left;
+		height:100%;
+	}
+	#agent_info{
+		width:70%;
+		float: left;
+		height:100%;
+	}
+	#agent_name{
+		padding:5px;
+		font-size:20px;
+		width:100%;
+	}
+	#agent_contact{
+		width:100%;
+	}
+	/*review section*********/
+	#review_con{
+		margin-top:10px;
+		width:100%;
+		overflow:auto;
+	}
+	#review_pic{
+		width: 7%;
+		height:5vw;
+		border-radius: 50%;
+		float:left;
+	}
+	#review_content{
+		width: 93%;
+		height: 100%;
+		float:left;
+	}
+	#review_detail{
+		margin-top:2px;
+		border-radius:25px;
+		padding:4px;
+		width: 100%;
+		height: 30px;
+		background-color: lightblue;
+		float:left;
+	}
+	#review_detail b1{
+		float:right;
+	}
+	#review_text{
+		padding:10px;
+		font-size:17px;
+		margin-top:2px;
+		border-radius:18px;
+		width: 100%;
+		min-height: 50px;
+		background-color:#d2e6ed;
+		float:left;
+	}
+	#review_form{
+		margin-top:30px;
+		width:100%;
+		overflow:auto;
+		padding:2px;
+	}
+	#review_name{
+		font-size:15px;
+		width:50%;
+		padding:5px;
+		float: left;
+		border:2px solid #462245;;
+	}
+	#review_img{
+		border:2px solid #462245;;
+		width:50%;
+		float: left;
+		padding:5px;
+		
+	}
+	#review{
+		font-size:15px;
+		margin-top:10px;
+		border:2px solid #462245;;
+		width:100%;
+		float:left;
+		padding:5px;
+	}
+	#name_upload{
+		width:100%;
+		overflow:auto;
+	}
+	#name_upload #left{
+		width:50%;
+		float:left;
+	}
+	#name_upload #right{
+		width:50%;
+		float:left;
+	}
+
+
+
+	/*review section*********/
+
+
+	/*buton style*/
+button{
+	color:white;
+	text-decoration:none;
+	background-color:#462245;
+	padding:5px;
+	transition: all 0.5s ease-out;
+	border:none;
+	margin-top:10px; 	
+}
+button:HOVER{
+	font-weight:bold;
+	background-color:rgba(66, 49, 49, 0);
+	border:2px solid #462245;
+	color:#462245;
+}
+
+						/*BODY LEFT END */
+
+}
+/*DESKTOP VIEW END
+
+
+/* TAB STYLE WILL WORK FOR BOT MOBILE AND DESKTOP*/
+#tabcon{
+	width:100%;
+}
+
+.tab{
+	overflow:hidden;
+	border:1px solid #ccc;
+	background-color:#f1f1f1;
+}
+.tab button{
+	margin:0px;
+	background-color:inherit;
+	float: left;
+	border:none;
+	outline:none;
+	cursor: pointer;
+	padding:14px 16px;
+	transition:0.3s;
+	color:black;
+}
+.tab button:hover{
+	background-color:#ddd;
+}
+.tab button .active{
+	background-color:#ccc;
+}
+.tabcontent{
+	display:none;
+	padding:6px 12px;
+	border:1px solid #ccc;
+	border-top:none;
+}
+.tablinks:nth-child(1){
+	background-color:#ddd;
+}
+#tab1{
+	display:block;
+}
+#about_section{
+	margin-top:10px;
+	width:100%;
+	overflow:auto;
+}
+#section_header{
+	width:100%;
+	padding:10px;
+	font-size:20px;
+	background-color:rgb(199, 199, 195);
+
+}
+#section_body{
+	padding:10px;
+	width:100%;
+	background-color:rgb(243, 236, 236);
+	
+}
+#section_body b{
+	font-size:20px;
+	color:black;
+	font-weight:bolder;
+	width:100%;
+	
+}
+#section_body b1{
+	font-weight:bolder;
+	font-size:15px;
+	color:rgb(59, 57, 57);
+	width:100%;
+	
+}
+
+/*desktop view of amenities*/
+@media (min-width: 768px)
+{
+
+	#multi{
+		-webkit-column-count:4;
+		-moz-column-count:4;
+		-column-count:4;
+
+		-webkit-column-gap:20%;
+		-moz-column-gab:20%;
+		-column-gap:20%;
+	}
+}
+
+/*mobile view of amenities*/
+@media (max-width: 768px)
+{
+
+	#multi{
+		-webkit-column-count:2;
+		-moz-column-count:2;
+		-column-count:2;
+
+		-webkit-column-gap:50%;
+		-moz-column-gab:50%;
+		-column-gap:50%;
+	}
+
+
+
+
+}
+/* TAB STYLE WILL WORK FOR BOT MOBILE AND DESKTOP*/
+/* SLIDE STYLE WILL WORK FOR BOT MOBILE AND DESKTOP*/
+.slideshow-container{
+	width:100%;
+	height :100%;
+	position:relative;
+}
+.slideshow-container img{
+	width:100%;
+	height :100%;
+	position: absolute;
+	z-index:2;
+}
+.prev, .next{
+	z-index:2;
+	text-decoration:none;
+	cursor: pointer;
+	padding:20px;
+	position: absolute;
+	background-color:rgba(46, 43, 43, 0.438);
+	top:40%;
+}
+.prev:hover, .next:hover{
+	background-color:rgba(46, 43, 43, 0.959);
+}
+.circle{
+	position: absolute;
+	width:100%;
+	height:30px;
+	bottom:0;
+}
+.dot{
+	cursor: pointer;
+	margin-top:3px;
+	margin-left:3px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background-color: rgb(224, 213, 213);
+	border-radius:20px;
+}
+.active{
+	border-radius:20px;
+	cursor: pointer;
+	margin-top:3px;
+	margin-left:3px;
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background-color:rgb(168, 152, 152);
+}
+.dot:hover{
+	background-color:rgb(168, 152, 152);
+}
+
+.next{
+	right:0;
+}
+
+
+/*mobile view of amenities*/
+@media (max-width: 768px)
+{
+
+	.modal{
+		display:none;
+		position: fixed;
+		z-index:14;
+		left:0;
+		top:0;
+		width:100%;
+		height:100%;
+		overflow: auto;
+		background-color: rgba(13, 17, 17, 0.746);
+	
+	}		
+	#modal_header{
+		width:100%;
+		padding:10px;
+		text-align:center;
+		font-weight:bold;
+		font-size:20px;
+		color:rgb(5, 2, 29);
+		border-bottom:2px solid rgb(5, 2, 29);
+	}
+	.modal-content{
+		background-color:#ffffff;
+		margin:10% auto;
+		padding:5px;
+		border:none;
+		width:90%;
+	}	
+	#modal_footer{
+		width:100%;
+		overflow:auto;
+		margin-top:10px;
+	}	
+	#modal_footer_left{
+		border-top:1px solid black;
+		font-weight:bold;
+		padding:15px;
+		text-align:center;
+		float: left;
+		width:50%;
+	}	
+	#modal_footer_left:hover{
+		background-color:rgba(95, 127, 156, 0.36);
+		cursor: pointer;
+
+	}
+	#modal_footer_right{
+		border-top:1px solid black;
+		border-left:1px solid black;
+		font-weight:bold;
+		padding:15px;
+		float: left;
+		text-align:center;
+		width:50%;
+	}	
+	#modal_footer_right:hover{
+		background-color:rgba(95, 127, 156, 0.36);
+		cursor: pointer;
+
+	}
+	.close{
+		color:black;
+		font-size:25px;
+		font-weight:bold;
+	}
+
+}
+
+/*MODAL STYLE*/	
+

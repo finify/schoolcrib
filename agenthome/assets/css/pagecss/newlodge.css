@@ -1,0 +1,13 @@
+#agent_name{
+    text-align:center;
+    width:100%;
+    color:white;
+}
+#check{
+    zoom:1.5;
+    border-radius:50%;
+}
+#check_label{
+    font-size:20px;
+    color:#3f073d;
+}

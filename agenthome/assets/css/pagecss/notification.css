@@ -1,0 +1,9 @@
+#student_name{
+    text-align:center;
+    width:100%;
+    color:white;
+}
+#notify_li:hover{
+    cursor:pointer;
+    background-color:#eedbdb;
+}
