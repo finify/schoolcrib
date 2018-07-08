@@ -1,0 +1,155 @@
+
+
+/*header style*/
+header{
+	width:100%;
+	height:auto;
+	background-color:#462245;
+	position:fixed;
+	padding-left:5%;
+	padding-right:5%;
+	z-index:4;
+}
+header #headerimg{
+	z-index:4;
+	height:40px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:100px;
+	float:left;
+}
+							/*menu style*/ 
+
+/*mobile view of menu*/
+@media (max-width: 768px)
+  {
+header #menubutton{
+	z-index:4;
+	height:30px;
+	margin-top:15px;
+	margin-right:3px;
+	margin-bottom:10px;
+	width:30px;
+	float:right;
+}
+ul{
+	display:none;
+}
+ul {
+	z-index:4;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	width:100%;
+}
+
+
+li a {
+	z-index:4;
+    display: block;
+    color:white;
+    text-align:left;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:100%;
+}
+
+li a:hover{
+    background-color: teal;
+	 text-decoration: none;
+	  color: white;
+}
+#menu-space{
+	z-index:4;
+	height:60px;
+}
+  }
+/*mobile view of menu*/
+/*desktop view of menu*/
+@media (min-width: 768px)
+  {
+
+header #menubutton{
+	display:none;
+}
+	ul {
+	display:block;
+    list-style-type: none;
+    overflow: hidden;
+	margin:0;
+	float: left;
+	
+	
+}
+ul{
+	float:right;
+}
+
+li {
+    float:left;	
+}
+
+li a {
+    display: block;
+	font-size:15px;
+	font-weight:bold;
+    color:white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:#332828;
+	 text-decoration: none;
+	  color: white;
+}
+#menu-space{
+	height:60px;
+}
+
+  }
+  /*desktop view of menu*/
+								/*menu style*/
+/*header style*/
+
+
+/*footer style*/
+footer{
+	width:100%;
+	padding:20px;
+	text-align:left;
+	color:white;
+	background-color:#393232;
+}		
+/*footer style*/
+
+/*input style*/
+#selectinput{
+	background-color:rgba(66, 49, 49, 0);
+	padding:15px;
+	border-width:2px;
+	border-color:#462245;
+	width:300px;
+}
+/*buton style*/
+button{
+	color:white;
+	text-decoration:none;
+	background-color:#462245;
+	padding:10px 20px 10px 20px;
+	font-weight:bold;
+	transition: all 0.5s ease-out;
+	border:none;
+	margin-top:10px; 	
+}
+button:HOVER{
+	font-weight:bold;
+	background-color:rgba(66, 49, 49, 0);
+	border:2px solid #462245;
+	color:#462245;
+}
+/*buton style*/
+
+/*input style*/

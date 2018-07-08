@@ -1,0 +1,441 @@
+body{
+	margin:0px;
+	background-image: url(../../images/bg.jpg);
+	background-size:auto;
+    background-repeat:repeat;
+	background-attachment:fixed;
+}
+								/*big welcome style*/
+.bigwelcome{
+	width:100%;
+	background-color:rgba(63, 49, 62, 0.6);
+	padding-top:50px;
+	padding-bottom:50px;
+	text-align:center;
+	display:inline-block;
+	margin-top:40px;
+}
+.bigwelcome p{
+	color:white;
+	font-weight:bold;
+	font-size:35px;
+	margin-bottom:30px;
+}
+.bigwelcome b{
+	color:white;
+	font-weight:bold;
+	font-style:italic;
+	font-size:20px;
+}
+.bigwelcome #button1{
+	margin-top:10px;
+	color:white;
+	text-decoration:none;
+	background-color:#e96656;
+	padding:20px;
+	margin-left:20px;
+	font-weight:bold;
+	transition: all 0.5s ease-out;
+}
+.bigwelcome #button2{
+	margin-top:10px;
+	font-weight:bold;
+	color:white;
+	text-decoration:none;
+	background-color:#1e9e6b;
+	padding:20px;
+	margin-left:20px;
+	transition: all 0.5s ease-out;
+}
+.bigwelcome #button1:HOVER{
+	background-color:#a93a2c;
+}
+.bigwelcome #button2:HOVER{
+	background-color:#196144;;
+}
+							/*big welcome style*/
+
+							/*search  style*/
+/*mobile view of search*/
+@media (max-width: 768px)
+  {
+.search{
+	width:100%;
+	height:auto;
+	background-color:white;
+	margin-top:0px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:50px;
+	}
+.search p1{
+	font-size:25px;
+	font-weight:bold;
+}
+#search_con{
+	display:block;
+	width:100%;
+}
+#search_left{
+	margin-top:10px;
+	width:100%;
+}
+#search_right{
+	margin-top:10px;
+	width:100%;
+}	  
+  }
+  
+/*desktop view of search input*/
+@media (min-width: 768px)
+  {
+.search{
+	width:100%;
+	height:auto;
+	background-color:white;
+	margin-top:0px;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:50px;
+	}
+.search p1{
+	font-size:25px;
+	font-weight:bold;
+}
+#search_con{
+	width:100%;
+}
+#search_left {
+	width:50%;
+	float:left;
+}
+#search_left #selectinput{
+	float:right;
+}
+#search_right{
+	width:50%;
+	float:right;
+}
+#search_right #selectinput{
+	float:left;
+}
+  
+  }
+/*SEARCH style*/
+
+/*start renting style*/
+#start_renting{
+	background-color:rgb(245, 239, 239); 
+	width:100%;
+	padding:20px;
+}
+#start_renting b{
+	font-size:25px;
+	color:black;
+}
+#start_renting b1{
+	font-size:19px;
+	color:rgb(0, 35, 52);
+}
+/*start renting style*/
+
+
+
+
+
+
+
+/*start renting style*/
+
+								/*About us style*/
+
+								
+/*both view of about*/
+#student_img{
+	width:100%;
+	height:60%;
+}
+#agent_img{
+	width:100%;
+	height:60%;
+}
+#caption{
+	width:100%;
+	background-color:rgb(0, 35, 52);
+	color:white;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	font-size:20px;
+}
+#caption_text{
+	color:white;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	padding-left:5px;
+	font-size:15px;
+	text-align:center;
+}
+/*both view of about*/
+
+
+/*mobile view of about*/
+@media (max-width: 768px)
+  {
+.aboutus{
+	height:auto;
+	background-image:url("../../images/carton-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	width:100%;
+	color:white;
+}		
+.aboutus p1{
+	font-size:25px;
+	font-weight:bold;
+}	
+#about_con{
+	background-color:rgba(63, 49, 62, 0.9);
+	height:auto;
+	display:block;
+	width:100%;
+	padding-top:20px;
+}
+#about_section{
+	background-color:white;
+	float: left;
+	border-top:1px solid black;
+	width:100%;
+	align-content:center;
+
+}	
+  
+#about_section img{
+	margin-top:5px;
+	float:left;
+	width:35%;
+}
+#about_right{
+	padding-bottom:10px;
+	padding-top:5px;
+	padding-left:20px;
+	padding-right:20px;
+	width:65%;
+	height:100%;
+	float: right;
+}
+#about_section b{
+	font-size:18px;
+	float:left;
+	color:black;
+}
+#about_section b1{
+	font-size:15px;
+	float:left;
+	color:black;
+}
+  }
+  
+/*desktop view of about*/
+@media (min-width: 768px)
+  {
+.aboutus{
+	background-image:url("../../images/carton-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	width:100%;
+	color:white;
+}		
+.aboutus p1{
+	font-size:25px;
+	font-weight:bold;
+}	
+#about_con{
+	width:100%;
+	height:300px;
+	padding-top:20px;
+	background-color:rgba(63, 49, 62, 0.8);
+}
+#about_section{
+	background-color:white;
+	float: left;
+	width:50%;
+	height:228px;
+
+}
+#about_section img{
+	float:left;
+	width:35%;
+	height:100%;
+}
+#about_right{
+	padding:20px;
+	width:65%;
+	height:100%;
+	float: right;
+}
+#about_section b{
+	font-size:18px;
+	float:left;
+	color:black;
+}
+#about_section b1{
+	font-size:15px;
+	float:left;
+	color:black;
+}
+
+  
+  }
+						
+						/*About us style*/
+
+				/*why us style*/
+
+								
+/*both view of about*/
+#student_img{
+	width:100%;
+	height:60%;
+}
+#agent_img{
+	width:100%;
+	height:60%;
+}
+#caption{
+	width:100%;
+	background-color:rgb(0, 35, 52);
+	color:white;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:20px;
+	font-size:20px;
+}
+#caption_text{
+	color:white;
+	font-weight:bold;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:5px;
+	padding-left:5px;
+	font-size:15px;
+	text-align:center;
+}
+/*both view of why us*/
+
+
+/*mobile view of why us*/
+@media (max-width: 768px)
+  {
+	.whyus{
+		background-color:#462245;
+		width:100%;
+		overflow:auto;
+		color:rgb(255, 255, 255);
+		background-image:url("../../images/lodge1.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+	}		
+	.whyus p1{
+		font-size:25px;
+		font-weight:bold;
+		margin-left:10px;
+	}	
+	#whyus_con{
+		padding-top:10px;
+		background-color:rgba(63, 49, 62, 0.8);
+		width:100%;
+		padding-bottom:50px;
+	}
+	#whyus_section{
+		height:200px;
+		width:100%;
+		padding:20px;
+	
+	}
+	#whyus_card{
+		height:100%;
+		width:100%;
+		background-color:whitesmoke;
+		border-radius:5px;
+	
+	}
+	#whyus_card span{
+		font-size:60px;
+		color:#462245;
+	}
+	#whyus_card b{
+		color:black;
+		font-size:17px;
+	}
+	#whyus_card b1{
+		color:rgb(71, 67, 67);
+		font-size:15px;
+	}  
+  }
+  
+/*desktop view of search input*/
+@media (min-width: 768px)
+  {
+.whyus{
+	background-color:#462245;
+	width:100%;
+	color:white;
+	background-image:url("../../images/lodge1.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+	background-attachment:fixed;
+}		
+.whyus p1{
+	font-size:25px;
+	font-weight:bold;
+}	
+#whyus_con{
+	padding-top:10px;
+	background-color:rgba(63, 49, 62, 0.8);
+	width:100%;
+	height:250px;
+	padding-bottom:50px;
+}
+#whyus_section{
+	height:100%;
+	width:33.3%;
+	float:left;
+	padding:20px;
+
+}
+#whyus_card{
+	height:100%;
+	width:100%;
+	background-color:whitesmoke;
+	float:left;
+	border-radius:5px;
+
+}
+#whyus_card span{
+	font-size:60px;
+	color:#462245;
+}
+#whyus_card b{
+	color:black;
+	font-size:17px;
+}
+#whyus_card b1{
+	color:rgb(71, 67, 67);
+	font-size:15px;
+}
+
+
+  
+  }
+						
+						
+						
+								/*About us style*/
