@@ -1,0 +1,29 @@
+#student_name{
+    text-align:center;
+    width:100%;
+    color:white;
+}
+
+#image_choose{
+    width:100%;
+    padding:5px;
+    background-color:red;
+    color:white;
+}
+
+#image_choose{
+	color:white;
+	text-decoration:none;
+	background-color:#462245;
+	padding:10px 20px 10px 20px;
+	font-weight:bold;
+	transition: all 0.5s ease-out;
+	border:none;
+	margin-bottom:10px; 	
+}
+#image_choose:HOVER{
+	font-weight:bold;
+	background-color:rgba(66, 49, 49, 0);
+	border:2px solid #462245;
+	color:#462245;
+}
